@@ -89,7 +89,7 @@ html {
 --------------------------------------------------------------*/
 .topnav {
   overflow: hidden;
- background-image: linear-gradient(to right, #f3fce6, #f7fbe9);
+ background-image: linear-gradient(to right, #8fd4ff, #8fd4ff);
    position: fixed; /* Set the navbar to fixed position */
  top:0;
   width: 100%;
@@ -265,7 +265,7 @@ html{
 
 .header{
   background-image: url('https://cdn.glitch.global/a3e1e2df-01b9-4a3f-ba7e-87785f32b8ed/Untitled%20119.png?v=1649648244971');
-  background-color: #38318c;
+  background-color: #045d93;
   padding-top: 150px;
   background-size:     cover;  
   font-family: 'Oswald', sans-serif;
