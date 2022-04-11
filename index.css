@@ -264,9 +264,10 @@ html{
 
 
 .header{
-  background-image: url('https://cdn.glitch.global/a3e1e2df-01b9-4a3f-ba7e-87785f32b8ed/Untitled%20108.png?v=1644159151448');
+  background-image: url('https://cdn.glitch.global/a3e1e2df-01b9-4a3f-ba7e-87785f32b8ed/Untitled%20119.png?v=1649648244971');
   background-color: #38318c;
   padding-top: 150px;
+  background-size:     cover;  
   font-family: 'Oswald', sans-serif;
   height: 900px;
   
