@@ -89,7 +89,7 @@ html {
 --------------------------------------------------------------*/
 .topnav {
   overflow: hidden;
- background-image: linear-gradient(to right, #8fd4ff, #8fd4ff);
+ background-image: linear-gradient(to right, #f3fce6, #f7fbe9);
    position: fixed; /* Set the navbar to fixed position */
  top:0;
   width: 100%;
