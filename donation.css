@@ -2163,3 +2163,161 @@ a {
 }
 
 
+
+
+/*========== HOME ==========*/
+
+.home{
+  background-color: white;
+ 
+  
+}
+
+
+
+@media(max-width: 600px){
+
+  .home__subtitle{
+    justify-content: center;
+   
+  }
+   
+
+  .home{
+    padding-bottom: 190px;
+    padding-top: 100px;
+  }
+  
+  .home__container{
+    height: calc(700px- var(--header-height));
+  }
+
+  
+  .custom-shape-divider-bottom-1612574898{
+    display: none;
+  }
+
+  .home_title{
+    text-align: center;
+  }
+  
+  .home__subtitle{
+    text-align: center;
+  }
+   
+  
+ 
+
+
+}
+
+
+
+.home__subtitle{
+  font-size: 20px;
+  color: var(--title-color);
+
+   font-family: 'Noto Sans', sans-serif;
+  margin-bottom: var(--mb-4);
+   line-height: 39px;
+  text-align: left;
+}
+
+
+.button{
+  display: inline-block;
+  
+  background-color: #192b6c;
+  color: #FFF;
+  padding: .9rem 1.5rem;
+  border-radius: .5rem;
+  font-family: 'Rubik', sans-serif;
+  transition: .3s;
+  font-size: 1.2rem;
+}
+
+
+.button:hover{
+  background-color: #3aa6a2;
+  text-decoration: none;
+  color: #FFF;
+}
+
+
+.extra{
+  background-color:#f0f0f0;
+ height: 1vw;
+  
+}
+.home__container{
+  height: calc(500px - var(--header-height));
+  align-content: center;
+  margin: 50px;
+  font-family: 'Rubik', sans-serif;
+  
+}
+
+
+.home_title{
+  font-size: 3.3rem;
+  font-weight: 400;
+  color: var(--title-color);
+  font-family: 'Rubik', sans-serif;
+  margin-bottom: var(--mb-4);
+   margin-top: 70px;
+  color: #192b6c;
+  text-align: left;
+}
+
+
+.home__img{
+  width: 300px;
+  padding-top: 40px;
+  justify-self: center;
+ 
+}
+
+
+
+
+/*========== MEDIA QUERIES ==========*/
+@media screen and (min-width: 576px){
+  .home__container,
+  .about__container,
+  .app__container{
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+  }
+
+}
+
+@media screen and (min-width: 768px){
+
+
+  .home__container{
+    
+    justify-items: center;
+  }
+
+
+}
+
+@media screen and (min-width: 960px){
+  .bd-container{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .home__img{
+    width: 500px;
+  }
+
+}
+
+
+
+
+
+
+
+
