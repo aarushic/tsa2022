@@ -753,9 +753,12 @@ html{
 
 .footer{
 	/*background-color: #24262b;*/
-  background-color: #3d3128;
-
-  padding: 70px 0;  
+background-color: #3d3128;
+background-image: url(https://cdn.glitch.global/a3e1e2df-01b9-4a3f-ba7e-87785f32b8ed/Untitled%20127.png?v=1649651049485);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  padding: 120px 0;  
 }
 .footer-col{
    width: 25%;
